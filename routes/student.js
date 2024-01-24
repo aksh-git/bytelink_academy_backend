@@ -1,7 +1,6 @@
 import { Router } from "express";
 import Student from "../models/student.js";
 import fetchstudent from "../middlewares/fetchstudent.js";
-import { addStudentsToDatabase } from "../test.js";
 
 const studentRoute = Router();
 
